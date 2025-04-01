@@ -15,6 +15,7 @@ This website was created for CS 2100. It provides tools and resources for people
 Visit the deployed site using the GitHub Pages link below. No installation is required.
 
 ## Deployment
+https://kevinbennett00.github.io/CS2100-Project/
 
 ## Credits
 Created by Kevin Bennett  
