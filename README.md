@@ -1,7 +1,7 @@
 # Kevin Bennett Crypto & Stock Resource Website
 
 ## Description
-This website was created for CS 2100. It provides tools and resources for people interested in cryptocurrency and stock trading. Users can view live charts for Bitcoin, Ethereum, and Solana, explore helpful links, and contact the site creator.
+This website was created for CS 2100. It provides tools and resources for people interested in cryptocurrency and stock trading. Users can view live charts for Bitcoin, Ethereum, and Solana, explore helpful links, and can contact me.
 
 ## Features
 - Live Bitcoin chart on homepage
