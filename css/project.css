@@ -72,8 +72,9 @@ section h2 {
 }
 .gallery img {
     width: 150px;
-    height: auto;
-    border-radius: 8px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px; /* Optional: adds rounded corners */
     transition: transform 0.3s ease;
 }
 .gallery img:hover {
