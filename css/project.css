@@ -217,6 +217,7 @@ footer a {
     text-decoration: underline;
 }
 
+/* Responsive Design */
 @media (max-width: 768px) {
     nav ul li {
         display: block;
@@ -242,4 +243,3 @@ footer a {
         margin: 15px auto;
     }
 }
-
