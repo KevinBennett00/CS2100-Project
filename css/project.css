@@ -62,7 +62,7 @@ section h2 {
     color: #4CAF50;
 }
 
-/* Image Gallery Styling */
+/* Image Styling */
 .gallery {
     display: flex;
     gap: 20px;
@@ -74,14 +74,14 @@ section h2 {
     width: 150px;
     height: 150px;
     object-fit: cover;
-    border-radius: 8px; /* Optional: adds rounded corners */
+    border-radius: 8px; 
     transition: transform 0.3s ease;
 }
 .gallery img:hover {
     transform: scale(1.1);
 }
 
-/* Details/Summary Widget Styling */
+/* Details Styling */
 details {
     background-color: #fff;
     border: 1px solid #ccc;
@@ -169,7 +169,7 @@ form input[type="submit"]:hover {
     background-color: #388e3c;
 }
 
-/* Product Listing Styles */
+/* Product Styles */
 #product-list {
     display: flex;
     flex-direction: column;
@@ -218,7 +218,7 @@ footer a {
     text-decoration: underline;
 }
 
-/* Responsive Design */
+/* Responsive */
 @media (max-width: 768px) {
     nav ul li {
         display: block;
