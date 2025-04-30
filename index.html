@@ -5,7 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Kevin Bennett Crypto Resource</title>
   <meta name="description" content="Your one-stop resource for tracking cryptocurrency and stock performance, featuring real-time charts and educational tools.">
-  <link rel="stylesheet" href="css/project.css"> <!-- Correct CSS link -->
+  <link rel="stylesheet" href="css/project.css"> 
+  <script>
+    window.onload = function() {
+      alert("Welcome to Kevin Bennett's Trading Resource!");
+    }
+  </script>
 </head>
 <body>
   <header>
@@ -20,16 +25,14 @@
       <li><a href="resources.html">Resources</a></li>
       <li><a href="community.html">Community</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <li><a href="products.html">Products</a></li> <!-- New Products page link -->
+      <li><a href="products.html">Products</a></li>
     </ul>
   </nav>
 
   <main>
     <section id="introduction">
       <h2>Welcome to Your One-Stop Trading Resource</h2>
-      <p>
-        This website is designed to be a comprehensive hub for traders, offering real-time charts, market analysis, and educational content on both cryptocurrencies and stocks. Whether you’re a beginner or an advanced trader, you’ll find valuable insights and tools to aid your trading research.
-      </p>
+      <p>This website is designed to be a comprehensive hub for traders, offering real-time charts, market analysis, and educational content on both cryptocurrencies and stocks. Whether you’re a beginner or an advanced trader, you’ll find valuable insights and tools to aid your trading research.</p>
     </section>
 
     <section id="features">
@@ -44,8 +47,6 @@
 
     <section id="market-chart">
       <h2>Market Performance Chart</h2>
-
-      <!-- Bitcoin Chart -->
       <div class="chart-container">
         <h3>Bitcoin (BTC/USD)</h3>
         <iframe src="https://s.tradingview.com/embed-widget/mini-symbol-overview/?symbol=BINANCE%3ABTCUSDT&locale=en" width="100%" height="300" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
@@ -67,7 +68,6 @@
     <p>Contact: <a href="mailto:rb00246@my.westga.edu">rb00246@my.westga.edu</a></p>
   </footer>
 
-  <!-- Real-Time Date and Time Script -->
   <script>
     function updateDateTime() {
       const now = new Date();
